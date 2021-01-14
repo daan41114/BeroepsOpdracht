@@ -1,0 +1,91 @@
+
+
+div.portraitSlider{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* --------------------Buttons-------------------- */
+
+#previousPortraitDiv{
+    background-color: white;
+    height: 45px;
+    width: 45px;
+    margin-top: 18%;
+    margin-left: 10%;
+    border-radius: 6px;
+    transition: all 0.4s ease 0s;
+    border: solid 1px rgb(60, 60, 60);
+}
+
+#previousPortraitDiv:hover {
+    box-shadow: 1.5px 1.5px 5px rgb(44, 44, 44);
+}
+
+#previousPortrait{
+    margin-top: 5px;
+    height: 50%;
+    width: 50%;
+    transform: rotate(180deg);
+}
+
+#nextPortraitDiv{
+    background-color: white;
+    height: 45px;
+    width: 45px;
+    margin-top: 18%;
+    margin-right: 10%;
+    border-radius: 6px;
+    transition: all 0.4s ease 0s;
+    border: solid 1px rgb(60, 60, 60);
+}
+
+#nextPortraitDiv:hover {
+    box-shadow: 1.5px 1.5px 5px rgb(44, 44, 44);
+}
+
+#nextPortrait{
+    margin-top: 5px;
+    height: 50%;
+    width: 50%;
+}
+/* --------------------Slider-------------------- */
+
+#fotoslider {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 0;
+    transition-property: left;
+    transition-duration: 400ms;
+    transition-timing-function: ease-out;
+}
+
+#align{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 0%;
+    margin-top: -40px;
+    border: 2px solid white;
+}
+
+#viewport {
+    position: relative;
+    height: 240px;
+    width: 240px;
+    overflow: hidden;
+}
+
+.foto{
+    height: 240px;
+    width: 240px;
+    overflow: hidden;
+}
+
+img.portraitFoto{
+    height: 240px; 
+    width: 240px;
+}
