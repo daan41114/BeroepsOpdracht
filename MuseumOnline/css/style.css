@@ -1,0 +1,699 @@
+body{    
+    background-image: url("../images/LAM-Outside.jpg");
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 100%;
+    margin: 0px;
+    /* font-size: 110%; */
+}
+
+a {
+    text-decoration: none;
+}
+
+/* --------------------TOP BOX-------------------- */
+
+
+div.transbox {
+    margin: 0px;
+    background-color: rgba(88, 61, 15, 0.7);
+    border-bottom: 3px solid white ;
+    width: 100%;
+    height: 80px;
+}
+
+img.LAMLOGO{
+    width: 120px;
+    margin-top: 18px;
+    margin-left: 18px;
+}
+
+div.homeButton{
+    border: 0px solid black;
+    width: 100px;
+    height: 40px;
+    float: right;
+    margin-right: 18px;
+    margin-top: 15px;
+    display: flex;
+    align-items: stretch;
+}
+
+h2.home{
+    font-size: 32px;
+    font-family: Blogger sans;
+    color: white;
+    margin-top: 0px;
+}
+
+img.menuArrow{
+    width: 13.5px;
+    height: 13.5px;
+    transform: rotate(180deg);
+    margin-top: 29.5px;
+    margin-left: 5px;
+}
+
+
+/* --------------------TITLE-------------------- */
+
+
+h1.title{  
+    font-family: Blogger sans;
+    font-size: 65px;
+    margin: 0px;
+    margin-top: 90px;
+    margin-left: 25px;
+    margin-bottom: 0px;
+    color: rgb(255, 255, 255, 0.92);
+    text-shadow: 0 0 5px black;
+}
+
+
+/* --------------------TEXT BOX & BUTTONS-------------------- */
+
+/* --------------------TEXT BOX-------------------- */
+
+
+div.canvas{
+    height: 135px;
+    width: 630px;
+    margin-left: 29px;
+    margin-right: 0px;
+    position: relative;
+}
+
+div.textBox{
+    background-color: rgba(88, 61, 15, 0.7);
+    height: 136px;
+    width: 504px;
+    margin-right: 0px;
+    clip-path: polygon(0 0, 100% 0%, 87% 100%, 0% 100%);
+    position: absolute;
+}
+
+p.description{
+    margin-top: 0px;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-family: quicksand;
+    font-size: 23.4px;
+    color: rgb(255, 255, 255, 0.92);
+}
+
+
+/* --------------------BUTTONS-------------------- */
+
+
+div.buttons{
+    overflow: hidden;
+    position:relative;
+    z-index: 9;
+    margin-left: 450px;
+    width:200px;
+    height: 150px;
+}
+
+div.ticketsButton{
+    background-color: rgba(88, 61, 15, 0.7);
+    height: 62px;
+    width: 125px;
+    height: 63px;
+    margin: 0px;
+    margin-left: 35px;
+    clip-path: polygon(24% 0, 100% 0%, 76% 100%, 0% 100%);
+}
+
+.ticketsButton:hover{
+    background: rgb(255, 255, 255, 0.7);
+    transition: all 0.4s ease 0s;
+}
+
+p.ticketsTXT{
+    text-align: center;
+    margin: 0px;
+    padding: 20px;
+    font-size: 21px;
+    font-family: Blogger sans;
+    color: rgb(255, 255, 255);
+}
+
+p.ticketsTXT:hover{
+    color: black;
+}
+
+div.bezoekButton{
+    background-color: rgba(88, 61, 15, 0.7);
+    height: 63px;
+    width: 125px;
+    margin: 0px;
+    margin-top: 10px;
+    margin-left: 1px;
+    clip-path: polygon(24% 0, 100% 0%, 76% 100%, 0% 100%);
+}
+
+.bezoekButton:hover{
+    background: rgb(255, 255, 255, 0.7);
+    transition: all 0.4s ease 0s;
+}
+
+p.bezoekTXT{
+    text-align: center;
+    margin: 0px;
+    padding: 20px;
+    font-size: 21px;
+    font-family: Blogger sans;
+    color: rgb(255, 255, 255);
+}
+
+p.bezoekTXT:hover{
+    color: black;
+}
+
+
+
+/* --------------------BACKGROUND CHANGE-------------------- */
+
+
+div.backgroundChange{
+    margin-top: 5%;
+    margin-left: 29px;
+    margin-right: 29px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* --------------------LEFT ARROW-------------------- */
+
+
+div.previousBG{
+    width: 40px;
+    height: 40px;
+    background-color: rgba(88, 61, 15, 0.7);
+}
+
+img.previousArrow{
+    transform: rotate(180deg);
+    width: 55%;
+    height: 55%;
+    margin: 9px;
+}
+
+/* --------------------RIGHT ARROW-------------------- */
+
+
+div.nextBG{
+    width: 40px;
+    height: 40px;
+    margin-right: 18px;
+    background-color: rgba(88, 61, 15, 0.7);
+}
+
+img.nextArrow{
+    width: 55%;
+    height: 55%;
+    margin: 9px;
+    
+}
+
+/* --------------------reviewBox-------------------- */
+
+div.reviewBox{
+    width: 100%;
+    background-color:  rgba(99, 82, 56);
+    margin-top: 17%;
+    padding-bottom: 40px;
+}
+
+h2.reviewsHeader{
+    font-family: quicksand light;
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    padding-left: 29px;
+    padding-top: 22px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+/* --------------------reviewerInformation-------------------- */
+
+div.reviewContent{
+    width: 99.85%;
+    margin-top: 0.5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+div.reviewInfo{
+    margin-left: 29px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* --------------------reviewer-------------------- */
+
+
+div.visitorBox{
+    display: flex;
+    width: 100%;
+    height: 67px;
+    border-bottom: 2px solid white;
+    margin-top: 30px;
+}
+
+#profile{
+    width: 60px;
+    height: 60px;
+    padding-top: 4px;
+    padding-left: 7px;
+}
+
+#visitortxt{
+    margin: 0px;
+    padding-top: 19px;
+    padding-left: 15px;
+    font-size: 26px;
+    font-family: quicksand light;
+    color: white;
+}
+
+#visitor{
+    margin: 0px;
+    padding-top: 19px;
+    padding-left: 15px;
+    font-size: 26px;
+    font-family: quicksand light;
+    color: white;
+}
+
+/* --------------------reviewDate-------------------- */
+
+
+div.dateBox{
+    display: flex;
+    width: 100%;
+    height: 67px;
+    border-bottom: 2px solid white;
+}
+
+#clock{
+    width: 60px;
+    height: 60px;
+    padding-top: 4px;
+    padding-left: 7px;
+}
+
+#datetxt{
+    margin: 0px;
+    padding-top: 19px;
+    padding-left: 15px;
+    font-size: 26px;
+    font-family: quicksand light;
+    color: white;
+}
+
+#date{
+    margin: 0px;
+    padding-top: 19px;
+    padding-left: 15px;
+    font-size: 26px;
+    font-family: quicksand light;
+    color: white;
+}
+
+/* --------------------reviewScore-------------------- */
+
+
+div.ratingBox{
+    display: flex;
+    width: 100%;
+    height: 67px;
+    border-bottom: 2px solid white;
+}
+
+#rating{
+    width: 60px;
+    height: 60px;
+    padding-top: 6px;
+    padding-left: 4px;
+}
+
+#ratingtxt{
+    margin: 0px;
+    padding-top: 19px;
+    padding-left: 15px;
+    font-size: 26px;
+    font-family: quicksand light;
+    color: white;
+}
+
+#star1{
+    width: 40px;
+    height: 38px;
+    margin-top: 14px;
+    margin-left: 14px;
+}
+
+#star2{
+    width: 40px;
+    height: 38px;
+    margin-top: 14px;
+    margin-left: 6px;
+}
+
+#star3{
+    width: 40px;
+    height: 38px;
+    margin-top: 14px;
+    margin-left: 6px;
+}
+
+#star4{
+    width: 40px;
+    height: 38px;
+    margin-top: 14px;
+    margin-left: 6px;
+}
+
+#star5{
+    width: 40px;
+    height: 38px;
+    margin-top: 14px;
+    margin-left: 6px;
+}
+
+
+/* --------------------REVIEWER AND WRITTEN REVIEW-------------------- */
+
+div.reviewerAndReview{
+    width: 38%;
+}
+
+div.reviewtxt{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    color: white;
+    border-bottom: 2px solid white;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 16px;
+    font-family: quicksand light;
+}
+
+/* --------------------Contact, News And Quiz buttons-------------------- */
+
+div.polygonBackground{
+    width: 100%;
+    height: 710px;
+    background-image: url("../images/polygonBackground.png");
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: 100%;    
+    display: flex;
+    align-items: center;
+}   
+
+#buttonSpace{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 220px;
+}
+
+#nieuwsDiv{
+    height: 220px;
+    width: 300px;
+    border: 3px solid rgba(99, 82, 56);
+    background-image: url("../images/nieuws.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left top;
+    transition: all 0.4s ease 0s;
+}
+
+#nieuwsDiv:hover {
+    border: solid 3px rgb(60, 60, 60);
+    box-shadow: 3px 5px 10px rgb(135, 135, 135);
+}
+
+#contactDiv{
+    height: 220px;
+    width: 300px;
+    border: 3px solid rgba(99, 82, 56);
+    background-image: url("../images/contact_resized.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left top;
+    transition: all 0.4s ease 0s;
+}
+
+#contactDiv:hover {
+    border: solid 3px rgb(60, 60, 60);
+    box-shadow: 3px 5px 10px rgb(135, 135, 135);
+}
+
+#quizDiv{
+    height: 220px;
+    width: 300px;
+    border: 3px solid rgba(99, 82, 56);
+    background-image: url("../images/quiz_resized.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left top;
+    transition: all 0.4s ease 0s;
+}
+
+#quizDiv:hover {
+    border: solid 3px rgb(60, 60, 60);
+    box-shadow: 3px 5px 10px rgb(135, 135, 135);
+}
+
+.txtStyling{
+    font-family: quicksand;
+    font-weight: 500;
+    font-size: 50px;
+    color:  black;
+    text-align: center;
+    text-shadow: 0 0 5px white;
+    margin: 0px;
+    margin-top: 25%;
+}
+
+
+
+/* --------------------Social media & More Info-------------------- */
+
+div.mediaAndInfo{
+    background-color:  rgba(99, 82, 56);
+    width: 100%;
+    height: 200px;
+    display: flex;
+}
+
+
+/* --------------------Social media (LEFT SIDE)-------------------- */
+
+div.socialMedia{
+    height: 97.78%;
+    width: 50%;
+}
+
+div.socialMediaTitle{
+    border-bottom: 2.7px solid white;
+    width: 46%;
+    margin: auto;
+    margin-top: 3%;
+    text-align: center;
+}
+
+h3.socialMediaTitle{
+    font-family: quicksand light;
+    font-size: 47px;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+div.mediaIcons{
+    width: 40%;
+    margin: auto;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mediaBackground{
+    background-color: white;
+    width: 68px;
+    height: 68px;
+    border-radius: 10px;
+    transition: all 0.4s ease 0s;
+
+}
+
+.mediaBackground:hover {
+    box-shadow: 3px 5px 10px rgb(44, 44, 44);
+}
+
+.mediaImage{
+    width: 85%;
+    height: 85%;
+    margin-top: 7.5%;
+    margin-left: 7.5%;
+}
+
+#facebook{
+    width: 100%;
+    height: 100%;
+}
+
+/* --------------------More Info (RIGHT SIDE)-------------------- */
+
+
+div.moreInfo{
+    height: 97.78%;
+    width: 50%;
+}
+
+div.moreInfoTitle{
+    border-bottom: 2.7px solid white;
+    width: 56%;
+    margin: auto;
+    margin-top: 2.9%;
+    text-align: center;
+}
+
+h3.moreInfoTitle{
+    font-family: quicksand light;
+    font-size: 47px;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+div.hrefTextBox{
+    width: 55%;
+    height: 80px;
+    margin: auto;
+    margin-top: 2%;
+}
+
+div.linkPlaceholder{
+    width: 100%;
+    height: 48%;
+    display: flex;
+}
+
+div.linkPlaceholder2{
+    width: 50%;
+    height: 99%;
+}
+
+.hrefText{
+    margin: 0;
+    font-family: quicksand regular;
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    transition: all 0.4s ease 0s;
+}
+
+.hrefText:hover{
+    color: black;
+}
+
+/* -------------------- Footer -------------------- */
+
+
+div.footer{
+    background-color: rgb(41, 28, 3);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+div.adressBox{
+    margin-left: 2.5%;
+    width: 30%;
+    height: 97%;
+}
+
+div.mailAdressBox{
+    width: 30%;
+    height: 97%;
+}
+
+div.phoneAndMailBox{
+    margin-right: 2.5%;
+    width: 30%;
+    height: 97%;
+}
+
+div.phoneBox{
+    width: 100%;
+    height: 48%;
+    display: flex;
+}
+
+div.phoneImage{
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    margin-top: 1.6%;
+}
+
+img.phoneImage{
+    width: 80%;
+    height: 80%;
+    margin-left: 10%;
+    margin-top: 9%;
+}
+
+div.mailBox{
+    width: 100%;
+    height: 48%;
+    display: flex;
+}
+
+div.mailImage{
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    margin-top: 1.6%;
+}
+
+img.mailImage{
+    width: 80%;
+    height: 80%;
+    margin-left: 10%;
+    margin-top: 9%;
+}
+
+p.adressText{
+    margin: 0;
+    font-family: quicksand regular;
+    font-size: 22px;
+    color: white;
+    margin-top: 8.5%;
+    text-align: center;
+}
+
+p.numberAndEmail{
+    margin: 0;
+    font-family: quicksand regular;
+    font-size: 20px;
+    color: white;
+    margin-top: 3.4%;
+    margin-left: 1%;
+}
+
+/* div{
+    border: 1px solid red;
+} */
