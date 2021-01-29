@@ -12,7 +12,12 @@
     question: "what season do you prefer the most?",
     options: ["Winter", "spring", "summer","autumn"],
     answer: [30, 40, 10, 20],
+  }, {
+    question: "what do you do in a museum mostly",
+    options: ["just keep staring at the art", "looking at the art real quick", "only looking at the art that interests you", "walking through it al as fast as possible"],
+    answer: [20, 30, 40, 10]
   }];
+
   
   var quesCounter = 0;
   var selectOptions = [];
@@ -118,16 +123,21 @@
           correct += allQuestions[i].answer[selectOptions[i]];
 
         }
-        score.append('based on your awnsers we think this artwork suits you the most!');
-        if (correct > 0 && correct < 70) {
+
+        score.append('based on your awnsers we think this artwork suits you the most, click anywhere to exit');
+        if (correct > 0 && correct < 90) {
           score.append('<img src="woodenShrek.jpg">');
         }
-        if (correct > 70 && correct < 100) {
+        if (correct > 90 && correct < 130) {
           score.append('<img src="foodPainting.jpg">');
         }
-        if (correct > 100 && correct < 121) {
+        if (correct > 130 && correct < 161) {
           score.append('<img src="platinumCart.jpg">');
         }
+        onclick = function () {
+          window.open("https://www.google.com");
+        }
         return score;
+
     }
 })();

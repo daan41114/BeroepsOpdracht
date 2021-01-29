@@ -12,6 +12,10 @@
     question: "Van welk seizoen hou jij het meest?",
     options: ["Winter", "Lente", "Zomer","Herfts"],
     answer: [30, 40, 10, 20],
+  }, {
+    question: "wat doe jij in een museum vooral",
+    options: ["erg lang en aandachtig kijken", "gewoon ff kijken bij elk kunstwerk", "alleen kijken naar de kunstwerken die je interreseeren", "zo snel mogenlijk doorlopen"],
+    answer: [20, 30, 40, 10]
   }];
   
   var quesCounter = 0;
@@ -118,16 +122,23 @@
           correct += allQuestions[i].answer[selectOptions[i]];
 
         }
-        score.append('Gebaseerd op jouw antwoorden denken wij dat dit kunstwerk het best bij jou past!');
-        if (correct > 0 && correct < 70) {
+        
+        score.append('Gebaseerd op jouw antwoorden denken wij dat dit kunstwerk het best bij jou past!, klik ergens');
+        
+        if (correct > 0 && correct < 90) {
           score.append('<img src="woodenShrek.jpg">');
         }
-        if (correct > 70 && correct < 100) {
+        if (correct > 90 && correct < 130) {
           score.append('<img src="foodPainting.jpg">');
         }
-        if (correct > 100 && correct < 121) {
-          score.append('<img src="platinumCart.jpg">');
+        if (correct > 130 && correct < 161) {
+          score.append('<img src="platinumCart.jpg" >');
+        }
+        onclick = function () {
+          window.open("https://www.google.com");
         }
         return score;
+        
+        
     }
 })();
